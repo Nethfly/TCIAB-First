@@ -1,0 +1,17 @@
+body {
+    margin: 35px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+figure {
+    margin: 50px;
+    width: 400px;
+}
+
+.circulo-yo {
+    border-radius: 50%;
+}
