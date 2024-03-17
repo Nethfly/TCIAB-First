@@ -15,14 +15,14 @@ switch(entrada){
 const entrada = prompt ("Enter your name");
 console.log (entrada);
 if(entrada==null){
-        document.write("Are you cancelling your Jedi Path?");
+        document.write("Are you sure of cancelling?");
 }else{
 switch(entrada){
     case "":
-        document.write("Hello there! Youngling");
+        document.write("Hello there!");
         break;
     default:
-        document.write("Hello There "+ entrada + ", Welcome to the Jedi Academy");
+        document.write("Hello There "+ entrada + ", this is my first web page");
     break;
 }
 }
