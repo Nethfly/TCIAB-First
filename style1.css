@@ -1,17 +1,189 @@
 body {
-    margin: 35px;
+    margin: 25px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
 }
 
-img {
+#contenedor-saludo {
+    text-align: center;
+}
+
+#contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+}
+
+/*Menu*/
+header {
+    border-style: solid;
+    border-color: black;
+    font-family: Arial, Helvetica, sans-serif;
     width: 100%;
     height: auto;
 }
 
-figure {
-    margin: 50px;
-    width: 400px;
+.menu {
+    background-color: aquamarine;
+    padding: 10px 0;
 }
 
-.circulo-yo {
-    border-radius: 50%;
+.menu-cont {
+    text-align: center;
+}
+
+.menu-item {
+    color: brown;
+    text-decoration: none;
+    padding: 5px 0px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.menu-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.menu-item:hover {
+    background-color: black;
+    color: beige;
+    text-decoration: none;
+}
+
+.circulo-flying {
+    display: flex;
+    justify-content: center;
+    border-radius: 10%;
+    width: 350px;
+    height: 352px;    
+}
+
+.imagen-centrada {
+    display: flex;
+    justify-content: center;
+}
+
+.citation-container {
+    display: flex;
+    justify-content: center;
+}
+
+.circulo-me {
+    border-radius: 5%;
+    width: 210px;
+    height: 212px;
+    object-fit: cover;
+}
+
+.caja1 {
+    background-color:darkcyan;
+    margin: auto;
+    border-style: auto;
+    border-radius: 10%;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caja2 {
+    background-color:darkcyan;
+    margin: auto;
+    border-style: auto;
+    border-radius: 10%;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caja3 {
+    background-color:darkcyan;
+    margin: auto;
+    border-style: auto;
+    border-style: none;
+    border-radius: 10%;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.lista1 {
+    color: rgb(0, 0, 0);
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.lista1 li {
+    margin-right: 20px;
+}
+
+.item img {
+    display: block;
+    margin: 0 auto;
+}
+
+.item span {
+    display: block;
+}
+
+#resident-evil {
+    border-radius: 5%;
+    width: 162px;
+    height: auto;
+    object-fit: cover;
+}
+
+#silent-hill {
+    border-radius: 5%;
+    width: 162px;
+    height: auto;
+    object-fit: cover;
+}
+
+#metal-gear-solid {
+    border-radius: 5%;
+    width: 162px;
+    height: auto;
+    object-fit: cover;
+}
+
+#the-last-of-us {
+    border-radius: 5%;
+    width: auto;
+    height: 162px;
+    object-fit: cover;
+}
+
+.see-me {
+    display: flex;
+    justify-content: center;
+}
+
+.some-videos {
+    display: flex;
+    justify-content: center;
+}
+
+.cent-title {
+    display: flex;
+    justify-content: center;
 }
